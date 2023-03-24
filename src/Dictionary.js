@@ -16,9 +16,9 @@ function Dictionary() {
     return (
         <div className="Dictionary">
             <h2>What's the word of today?</h2>
-        <form onSubmit={search}>
-            <input type="search" onChange={handleKeywordChange} />
-        </form>
+                <form onSubmit={search}>
+                    <input type="search" onChange={handleKeywordChange} />
+                 </form>
         </div>
     );
 };
