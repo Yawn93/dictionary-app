@@ -4,7 +4,7 @@ import Results from "./Results.js";
 import './Dictionary.css';
 
 function Dictionary() {
-    let [keyword, setKeyword] = useState("");
+    let [word, setWord] = useState("");
     let [results, setResults] = useState(null);
 
     function handleResponse(response) {
@@ -12,13 +12,13 @@ function Dictionary() {
     }
 
     function handleKeywordChange(event) {
-        setKeyword(event.target.value);
+        setWord(event.target.value);
     }
 
     function search(event) {
         event.preventDefault();
-
-        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+        let api = "b8453383f75c0afafd7ft88f33789o5a"
+        let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${word}&key=${api}`;
         axios.get(apiUrl).then(handleResponse);
     }
 
