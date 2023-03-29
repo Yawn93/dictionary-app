@@ -6,14 +6,14 @@ function App() {
     <div>
       <div className="container">
 
-      <header className="text-center">
-       DICTIONARY APP
+      <header className="text-center book">
+       📖
       </header>
       <main>
         <Dictionary />
       </main>
-      <footer className="text-center">
-        <small>Coded by Beatriz St.Aubyn</small>
+      <footer className="footer">
+        <small>Coded by Beatriz St.Aubyn | Check Github</small>
       </footer>
       </div>
     </div>
