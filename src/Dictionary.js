@@ -27,6 +27,8 @@ function Dictionary() {
             <h1>What's the word of today?</h1>
                 <form onSubmit={search}>
                     <input type="search" onChange={handleKeywordChange} />
+                    <br/>
+                    <span>example: sunset, light, sky...</span>
                  </form>
                  <Results results={results}/>
         </div>
