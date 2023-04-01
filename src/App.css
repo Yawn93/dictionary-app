@@ -23,3 +23,7 @@ font-size: 40px;
 a {
     color: #e68181;
 }
+
+a:hover {
+    color: #e68181;
+}
