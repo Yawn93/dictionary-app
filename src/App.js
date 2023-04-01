@@ -3,7 +3,7 @@ import Dictionary from './Dictionary.js';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <div className="container">
 
       <header className="text-center book">
@@ -13,7 +13,7 @@ function App() {
         <Dictionary defaultKeyword="hello"/>
       </main>
       <footer className="footer">
-        <small>Coded by Beatriz St.Aubyn | Check Github</small>
+        <small>Coded by <a href="https://my-portfolio-beatriz.netlify.app/">Beatriz St.Aubyn</a> 👩‍💻 <a href="https://github.com/Yawn93">Github</a></small>
       </footer>
       </div>
     </div>

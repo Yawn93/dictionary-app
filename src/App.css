@@ -14,3 +14,12 @@ font-size: 40px;
     font-size: 16px;
     text-align: center;
 }
+
+.App {
+    width: 800px;
+    margin: 0 auto;
+}
+
+a {
+    color: #e68181;
+}
