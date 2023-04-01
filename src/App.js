@@ -10,7 +10,7 @@ function App() {
        📖
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="hello"/>
       </main>
       <footer className="footer">
         <small>Coded by Beatriz St.Aubyn | Check Github</small>
